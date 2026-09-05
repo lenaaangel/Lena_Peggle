@@ -43,6 +43,7 @@ public class Peg : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //Si vuelve a pegar no se repite la funcion.
         if (_hit) return;
 
         _hit = true;
