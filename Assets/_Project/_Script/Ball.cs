@@ -10,7 +10,7 @@ public class Ball : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
     }
 
-    public void Launc(Vector3 direction, float impulse)
+    public void Launch(Vector3 direction, float impulse)
     {
         direction.z = 0f;
         direction.Normalize();
